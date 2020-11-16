@@ -87,6 +87,46 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* Base Header - Footer Styles */
+
+  body {
+  font-size: 1em;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+/* HEADER AND NAV */
+
+header .content-wrapper {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
