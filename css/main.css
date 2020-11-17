@@ -250,23 +250,41 @@ header a {
 }
 
 /* MISSION ABOUT */
-.mission
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.mission .content-wrapper {
 
-.mission .content-wrapper
+}
 
-.mission-content
+.mission-content {
 
-.mission-content h2 
+}
+
+.mission-content h2 {
+
+}
 
 /* MAP ABOUT */
 
-.map
-
 /* CONTACT ABOUT */
-.contact-section
-.content-wrapper
-.contact-info1
-.contact-info2
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.contact-info1 {
+
+}
+.contact-info2 {
+
+}
 /* FAQ */
 
 /* FAQ CONTENT-WRAP */
