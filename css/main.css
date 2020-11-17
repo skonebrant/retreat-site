@@ -96,7 +96,7 @@ textarea {
 header,
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin: 0;
   flex-flow: row wrap;
@@ -109,24 +109,167 @@ header .content-wrapper {
   display: flex; 
   justify-content: center;
   align-items: center;
+  width: 100%;
   flex-direction: column;
-  width: 90%;
 }
 
 header nav {
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 90%;
+  justify-content: space-around;
+  width: 100%;
 }
 
-header nav ul {
+header img {
+  width: 100%;
+}
+header ul {
+  list-style-type: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+header li :first-of-type {
+  margin-right: 3em;
 }
 
+header a {
+  text-decoration: none;
+}
+
+/* HERO AREA */
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-area .content-wrapper {
+
+}
+
+/* CONTACT AREA */
+
+.contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.form-description {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form :first-of-type {
+  margin-bottom: 1em;
+}
+
+/* AMENITIES */
+
+.features h1 {
+  text-align: center;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.fontawesome-icon {
+
+}
+
+.features-item-description {
+  text-align: center;
+}
+
+/* REVIEWS */
+
+.reviews h1 {
+  text-align: center;
+}
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.reviews .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.img-article {
+  display: block;
+}
+
+.img-article img {
+  width: 100%;
+}
+
+/* FOOTER AND SOCIAL */
+
+.footer-content {
+
+}
+
+.contact {
+
+}
+
+.social {
+
+}
+
+.social-icons {
+
+}
+
+.copyright {
+
+}
+
+/* MISSION ABOUT */
+.mission
+
+.mission .content-wrapper
+
+.mission-content
+
+.mission-content h2 
+
+/* MAP ABOUT */
+
+.map
+
+/* CONTACT ABOUT */
+.contact-section
+.content-wrapper
+.contact-info1
+.contact-info2
+/* FAQ */
+
+/* FAQ CONTENT-WRAP */
 /* ==========================================================================
    Helper classes
    ========================================================================== */
