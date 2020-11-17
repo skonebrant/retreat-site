@@ -91,6 +91,9 @@ textarea {
 
   body {
   font-size: 1em;
+  width: 360px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 header,
@@ -100,24 +103,30 @@ footer {
   align-items: center;
   margin: 0;
   flex-flow: row wrap;
-  width: 100%;
+  width: 360px;
+  text-align: center;
 }
 
 /* HEADER AND NAV */
 
+header {
+  padding: 15px 0;
+}
 header .content-wrapper {
   display: flex; 
   justify-content: center;
   align-items: center;
   width: 100%;
   flex-direction: column;
+  margin: 0;
 }
 
 header nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100%;
+  width: 60%;
+  padding: 15px 0;
 }
 
 header img {
@@ -128,8 +137,8 @@ header ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0;
   text-align: center;
+  width: 100%;
 }
 header li :first-of-type {
   margin-right: 3em;
@@ -138,6 +147,11 @@ header li :first-of-type {
 header a {
   text-decoration: none;
 }
+
+.header-divider {
+  width: 103%;
+  border-bottom: 2px solid blue;s
+} 
 
 /* HERO AREA */
 
@@ -176,20 +190,29 @@ header a {
 
 /* AMENITIES */
 
-.features h1 {
-  text-align: center;
-}
 .features {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.features h1 {
+  text-align: center;
+}
+
+.features p {
+  margin 0;
+}
+
+.features article {
+  width: 160px;
 }
 
 .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  width: 360px;
+  flex-flow: column;
 }
 
 .fontawesome-icon {
@@ -204,17 +227,20 @@ header a {
 
 .reviews h1 {
   text-align: center;
+  width: 290px;
 }
-.reviews {
+
+.reviews h3 {
+  width: 170px;
+}
+/* .reviews {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-}
+} */
 
 .reviews .content-wrapper {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
@@ -229,6 +255,14 @@ header a {
 
 /* FOOTER AND SOCIAL */
 
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer p {
+  margin 0;
+}
 .footer-content {
 
 }
