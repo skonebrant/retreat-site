@@ -13,138 +13,159 @@
   <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+
+  <!-- FONT AWESOME 6 -->
+  <script src="https://kit.fontawesome.com/b8b7811531.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@500;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
 
-  <!--------------- HEADER AREA ------------->
-  <header>
+  <!-- Add your site or application content here -->
 
+  <!-- HEADER -->
+  <header>
     <div class="content-wrapper">
       <figure>
-        <a href="#"><img src="img/unplugged-logo.png" alt=""></a>
+        <a href="#"><img src="img/unplugged-logo.png" alt="unplugged logo"></a>
       </figure>
       <div class="header-divider"></div>
       <nav>
         <ul>
           <li><a href="faq/index.html" target="_blank">FAQ</a></li>
-          <li><a href="about/index.html">About</a></li>
+          <li><a href="about/index.html" target="_blank">About</a></li>
         </ul>
       </nav>
     </div>
   </header>
+  <!-- HEADER ENDS-->
 
-  <!-- HERO AREA -->
-  <section class="hero-area">
-    <div class="content-wrapper">
+  <main>
+    <!-- MAIN HERO AND CONTENT WRAPPER -->
 
-      <h1>Retreat from the desk, return refreshed.</h1>
-
-    </div>
-
-  </section>
-
-  <!----------------- CONTACT AREA --------------------->
-  <aside class="contact-us">
-    <div class="form-description">
-      <h3>Want to join the next retreat?</h3>
-      <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
-      <h3>Find out more</h3>
-    </div>
-    <div class="form">
-      <input type="text" name="name" value="email address">
-      <input type="button" value="Download Itinerary">
-    </div>
-  </aside>
-
-  <!------------- AMENITIES ----------------->
-  <section class="features">
-    <div class="features-items">
-      <h1>Have the work week you always dreamed of - without the bad wifi.</h1>
-
-      <article>
-        <p class="fontawesome-icon"></p>
-        <p class="features-item-description">Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
-      </article>
-
-      <article>
-        <p class="fontawesome-icon"></p>
-        <p class="features-item-description">12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4
-          breakout rooms.</p>
-      </article>
-      <article>
-        <p class="fontawesome-icon"></p>
-        <p class="features-item-description">Private chef team providing on demand meals - just like your team
-          kitchen.
-        </p>
-      </article>
-      <article>
-        <p class="fontawesome-icon"></p>
-        <p class="features-item-description">5 outdoor obstacle courses, including private beach ½ mile from bungalow
-        </p>
-      </article>
-      <article>
-        <p class="fontawesome-icon"></p>
-        <p class="features-item-description">Retreat facilitator to manage your day to day activities so you all get a
-          chance to reset</p>
-      </article>
-      <article>
-        <p class="fontawesome-icon"></p>
-        <p class="features-item-description">Dedicated computer room for times that you must wifi</p>
-    </div>
-    </article>
-    </div>
-  </section>
-
-  <!--------------- ARTICLE TEAM --------------->
-
-  <section class="reviews">
-    <div class="content-wrapper">
-      <h1>Be a better team in 5 days, like these</h1>
-      <div class="img-article">
-        <img src="" alt="">
+    <section class="hero-area">
+      <div class="content-wrapper">
+        <h1>Retreat from the desk, return refreshed.</h1>
       </div>
-      <h3>LaCrue Bottling Co. October 2017</h3>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nisi error iste tempora debitis eum voluptates
-        consequuntur accusamus facere. Quia aliquid, in cumque et laboriosam consectetur earum delectus quas eos!Ad ab
-        voluptas soluta aliquam consectetur officia quia atque omnis explicabo, cumque asperiores quis, cupiditate
-        eveniet
-        eligendi harum placeat. Consequatur quos repudiandae fugit sed ducimus? At dolorum quaerat assumenda veritatis.
-      </p>
-    </div>
-  </section>
+    </section>
 
-  <!-------------- FOOTER ------------------->
+
+    <aside>
+      <!-- ASIDE -->
+      <div class="content-wrapper">
+        <div class="form-description">
+          <h3>Want to join the next retreat?</h3>
+          <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
+        </div>
+        <!-- DO I NEED TO SEPERATE H3 FROM .FORM -->
+
+        <div class="form">
+          <h3>Find out more</h3>
+          <input type="text" name="name" value="name@email.com">
+          <input type="button" value="Download Itinerary">
+        </div>
+
+      </div>
+    </aside> <!-- ASIDE ENDS -->
+
+    <section class="features">
+      <div class="content-wrapper">
+        <h2>Have the work week you always dreamed of &mdash; without the bad WiFi.</h2>
+        <div class="features-items">
+          <article>
+            <p class="fontawesome-icon"><i class="fas fa-campground"></i></p>
+            <p class="features-item-description">Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
+          </article>
+          <article>
+            <p class="fontawesome-icon"><i class="fas fa-bed"></i></p>
+            <p class="features-item-description">12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4
+              breakout rooms.</p>
+          </article>
+          <article>
+            <p class="fontawesome-icon"><i class="fas fa-utensils"></i></p>
+            <p class="features-item-description">Private chef team providing on-demand meals &mdash; just like your team
+              kitchen.</p>
+          </article>
+          <article>
+            <p class="fontawesome-icon"><i class="fas fa-shoe-prints"></i></p>
+            <p class="features-item-description">5 outdoor obstacle courses, including private beach &#189; mile from
+              your bungalow.</p>
+          </article>
+          <article>
+            <p class="fontawesome-icon"><i class="fas fa-smile"></i></p>
+            <p class="features-item-description">Retreat facilitator to manage your day to day activities so you all get
+              a chance to reset.</p>
+          </article>
+          <article>
+            <p class="fontawesome-icon"><i class="fas fa-wifi"></i></p>
+            <p class="features-item-description">Dedicated computer room for times you must WiFi.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="content-wrapper">
+        <h2>Be a better team in 5 days, like this one.</h2>
+        <article>
+          <figure>
+            <img src="img/team-lacrue.jpg" id="team-photo" alt="LaCrue-photo">
+          </figure>
+
+          <div>
+            <h3>LaCrue Bottling Co - <span>October 2019</span></h3>
+            <p>"What an amazing experience! As individuals, we all had so many different starting points and areas that
+              needed work.
+              As a team, we were able to blossom in ways we never could in our work environment. We returned stronger
+              than we
+              were before with a new team spirit, resilience, and fellow understanding.<br>Thank you Unplugged!"
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+  </main> <!-- MAIN WRAPPER -->
+
   <footer>
     <div class="content-wrapper">
       <div class="footer-content">
-        <div class="contact">
-          <adress>
-            <h3>Contact</h3>
-            <p>555-555-5555</p>
-            <p><a href="mailto:hello@unplugged.com">hello@unplugged.com</a></p>
-          </adress>
-        </div>
+        <address class="contact">
+          <h4>Contact</h4>
+          <p>262-555-5309<br>
+            <a href="mailto:ibettameta@gmail.com">hello@unplugged.com</a></p>
+        </address>
+
         <div class="social">
+          <h4>Social</h4>
           <div class="social-icons">
-            <p><a href="https://www.facebook.com"></a></p>
+            <p><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></p>
+            <p><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></p>
+            <p><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></p>
+
           </div>
         </div>
-      </div>
-      <div class="copyright">
-        <p>Copyright 2020 - Unplugged</p>
-      </div>
-    </div>
-  </footer>
+      </div> <!-- FOOTER CONTENT ENDS -->
+    </div> <!-- FOOTER CONTENT-WRAPPER ENDS-->
 
-  <!-- Add your site or application content here -->
+    <div class="copyright">
+      <h5>Copyright 2020 | Unplugged</h5>
+
+    </div>
+  </footer> <!-- FOOTER -->
+
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
